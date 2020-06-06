@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.10.4":{"hashes":[["/Users/jsk/SparkProjects/spark-simpe-app/src/main/scala/com/example/chapter4/SundayCount.scala","0e399a2474aec2304d5364513c2c1da181878f26"]],"lastModifiedTimes":[]}}]
