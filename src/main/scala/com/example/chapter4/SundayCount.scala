@@ -10,9 +10,9 @@ object SundayCount {
 		if(args.length < 1) {
 			throw new IllegalArgumentException("명령 인수에 날자가 기록된 파일의 경로를 지정해 주세요.")
 		}
-	
+
 	val filePath = args(0)
-	val conf = new SparkConf
+	val conf = new SparkConf().setAppName("spark-simple-app").setMaster("local")
 	val sc = new SparkContext(conf)
 
 	try {
