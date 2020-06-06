@@ -12,7 +12,7 @@ object SundayCount {
 		}
 
 	val filePath = args(0)
-	val conf = new SparkConf().setAppName("spark-simple-app").setMaster("local")
+	val conf = new SparkConf().setAppName("SundayCount").setMaster("local")
 	val sc = new SparkContext(conf)
 
 	try {
